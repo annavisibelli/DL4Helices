@@ -4,7 +4,7 @@ import gensim
 import numpy as np
 import pandas as pd
 
-de=pd.read_csv("Data/Helices.csv",sep=";",header=None).T
+de=pd.read_csv("Data/3H.csv",sep=";",header=None).T
 dn=pd.read_csv("Data/Not_Helices.csv",sep=";",header=None).T
 de=de.append(dn,ignore_index=True)
 
@@ -21,7 +21,7 @@ model.train(sentences,total_examples=model.corpus_count,epochs=5000)
 model.save('./model5.txt')
 
 #Reload the helices dataset
-de=pd.read_csv("Data/Helices.csv",sep=";",header=None).T.values
+de=pd.read_csv("Data/3H.csv",sep=";",header=None).T.values
 dataset=[]
 for i in range(0,de.shape[0]):
     string=np.zeros(de.shape[1]*5)
