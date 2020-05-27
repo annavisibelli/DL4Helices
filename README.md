@@ -26,10 +26,9 @@ Since signals that trigger the helix formation can also be located outside the h
 
 **3H.csv** and **Non-Helices.csv** contains data necessary to run the ML experiments.
 
-**Encoding** sub-folder contains the implementation of the Word2Vec algorithm (https://radimrehurek.com/gensim/models/word2vec.html) and One-Hot-encoding to the dataset.
+**Encoding** folder contains the implementation of the Word2Vec (https://radimrehurek.com/gensim/models/word2vec.html) and One-Hot-encoding algorithms.
 
-
-Models: host all the model we have tested.
+**Models** folder host all the model we have tested. Each model 
 
 
 
