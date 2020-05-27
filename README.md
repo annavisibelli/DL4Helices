@@ -28,8 +28,7 @@ Since signals that trigger the helix formation can also be located outside the h
 
 **Encoding** folder contains the implementation of the Word2Vec (https://radimrehurek.com/gensim/models/word2vec.html) and One-Hot-encoding algorithms.
 
-**Models** folder host all the model we have tested. Each model 
-
+**Models** folder host all the model we have tested. Each model was setted to take as input the One-Hot encoded dataset. The Word2Vec encoded dataset can be used chancing " encoding='1h' " in " encoding='w2v' ".
 
 
 
