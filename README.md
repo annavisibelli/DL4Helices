@@ -22,11 +22,9 @@ The three main protein classes have been downloaded from the CATH Database (http
 
 Since signals that trigger the helix formation can also be located outside the helix sequence itself, we analyzed the first and the last four aminoacids inside the helix, taking into account also two or three amino acids before and after each helix. We labeled the sequences with two or three external residues with the suffix 2H or 3H, respectively.
 
-**Data** folder contains **3H.csv** and **2H.csv** files.
+**Data** contains data necessary to run the experiments.
 
 **Residue_propensity.py** evaluate the residue propensity value for each amino acid in the selected positions.
-
-**3H.csv** and **Non-Helices.csv** contains data necessary to run the ML experiments.
 
 **Encoding** folder contains the implementation of the Word2Vec (https://radimrehurek.com/gensim/models/word2vec.html) and One-Hot-encoding algorithms.
 
