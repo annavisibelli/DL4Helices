@@ -4,8 +4,8 @@ from keras.utils import to_categorical
 import numpy as np
 import pandas as pd
 
-de=pd.read_csv("Data/3H.csv",sep=";",header=None).T
-dn=pd.read_csv("Data/Not_Helices.csv",sep=";",header=None).T
+de=pd.read_csv("../Data/3H.csv",sep=";",header=None).T
+dn=pd.read_csv("../Data/Non_Helices.csv",sep=";",header=None).T
 
 #Helices One-Hot-Encoding
 des=[]
