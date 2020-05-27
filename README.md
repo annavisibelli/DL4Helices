@@ -11,10 +11,13 @@ The lm_pretrain module allows users to train bidirectional language models that 
 
 This project is entirely build with Python (version>=3.3). The required Python modules are:
 
-Pandas
-Numpy
-Scikit-learn
-Keras
-Tensorflow
-Gensim
+* Pandas
+* Numpy
+* Scikit-learn
+* Keras
+* Tensorflow
+* Gensim
+* Matplotlib
+* Os
+* Sys
 
