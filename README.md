@@ -1,6 +1,6 @@
 # A deep attention network for predicting amino acid signals in the formation of α-helices
 
-This rep contains the code to reproduce the experiments described in the paper "A deep attention network for predicting amino acid signals in the formation of alpha-helices".
+This rep contains the code to reproduce the experiments described in the paper "A deep attention network for predicting amino acid signals in the formation of α-helices".
 
 # Requirements
 
