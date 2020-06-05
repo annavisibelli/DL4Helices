@@ -213,7 +213,7 @@ for run in range(20): #multiple run
         average_attention = np.mean(attention_vector, axis=0)
 
         attention_final=[]
-        att_vec=attention_vector.reshape(14,5)
+        att_vec=attention_vector.reshape(14,20) # 20 for One-Hot Encoding, 5 for w2v Encoding
         for vec in att_vec:
             attention_final.append((sum(vec)/5))
             
